@@ -1,0 +1,68 @@
+.workout-info-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+
+    width: 90%;
+
+}
+
+.workout-info-section {
+    max-width: 1470px;
+   display: flex;
+   flex-direction: column;
+
+    gap: 40px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.info-block {
+    margin-left: 100px;
+
+}
+
+.info-block h1 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 16px;  
+}
+
+.info-block h2{
+     font-size: 20px;
+    color: #fff;
+    margin-bottom: 16px; 
+}
+
+.info-block p {
+    font-size: 16px;
+    
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.info-block ul {
+    padding-left: 20px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.info-block ul li {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #fff;
+        margin-bottom: 8px;
+}
+
+
+.info-img-split{
+    margin:  0 auto;
+}
+
+
+
+
+.info-img-legs{
+    margin:  0 auto;
+}

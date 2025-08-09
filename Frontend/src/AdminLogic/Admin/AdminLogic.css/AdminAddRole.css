@@ -1,0 +1,53 @@
+.add-role-container {
+  width: 600px;
+  margin: 70px auto;
+  height: 200px;
+  padding: 10px;
+  border: 2px solid saddlebrown;
+  border-radius: 30px;
+}
+
+.add-role-title {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-role-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.add-role-input {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid rgb(90, 94, 209);
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.add-role-button {
+  width: 200px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+   transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.add-role-button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.add-role-error {
+  color: red;
+  margin-top: 15px;
+  text-align: center;
+}

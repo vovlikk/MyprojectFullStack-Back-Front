@@ -1,0 +1,71 @@
+.my-subscriptions-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f5f7fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.my-subscriptions-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  
+}
+
+.my-subscriptions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+
+}
+
+.my-subscription-card {
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+.my-subscription-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.my-subscription-card h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.my-subscription-card p {
+  font-size: 15px;
+  margin: 4px 0;
+  color: #555;
+}
+
+.my-subscriptions-error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+.my-subscriptions-empty {
+  font-size: 15px;
+  text-align: center;
+  color: #666;
+}
+
+.my-subscriptions-container p, h1{
+  
+  color: #222;
+}

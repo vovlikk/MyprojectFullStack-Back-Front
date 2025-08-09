@@ -1,0 +1,27 @@
+
+.workout-V-taper-home{
+    
+    margin: 150px auto;
+    width: 100%;
+    height: 75vh;
+}
+
+.workout-v-taper-section{
+    display: flex;
+    gap: 50px;
+    width: 1470px;
+   
+    margin:  0 auto;
+    align-items: center;
+}
+
+.workout-v-taper-img img{
+    border-radius: 20px;
+}
+
+.workout-v-taper-text h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    
+}

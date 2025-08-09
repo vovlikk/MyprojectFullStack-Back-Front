@@ -1,0 +1,111 @@
+
+.user-progress-grafics-container {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.user-progress-grafics-section {
+  width: 100%;
+  max-width: 1100px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  overflow-y: auto;
+  max-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.user-progress-grafics-header {
+  text-align: center;
+}
+
+.user-progress-grafics-header h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+
+.user-progress-change-form {
+  background-color: #f0f4ff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 520px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.user-progress-change-form h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3b3b3b;
+  margin-bottom: 20px;
+}
+
+.change-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.change-form input {
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.change-form input:focus {
+  outline: none;
+  border-color: #4c6ef5;
+  box-shadow: 0 0 0 2px rgba(76, 110, 245, 0.2);
+}
+
+
+.change-form button {
+  padding: 14px;
+  background-color: #4c6ef5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+.change-form button:hover {
+  background-color: #3b5bdb;
+  transform: translateY(-1px);
+}

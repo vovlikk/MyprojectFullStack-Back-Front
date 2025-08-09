@@ -1,0 +1,30 @@
+
+
+.admin-home-page{
+    width: 100%;
+  
+    margin-top: 100px;
+}
+
+.admin-home-page-sections{
+    display: flex;
+    align-items: center;
+    width: 1470px;
+    
+    margin: 0 auto;
+    gap: 150px;
+}
+
+.admin-home-page-img img{
+    width: 700px;
+    height: 700px;
+}
+
+.admin-home-page-text h3{
+    font-size: 40px;
+}
+
+.admin-home-page-text p{
+    padding-top: 20px;
+    font-size: 20px;
+}

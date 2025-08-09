@@ -1,0 +1,52 @@
+.get-users-container {
+  width: 600px;
+  margin: 70px auto;
+  padding: 20px;
+  border: 2px solid saddlebrown;
+  border-radius: 30px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.get-users-title h3 {
+  color: black;
+  text-align: center;
+}
+
+.get-users-button {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 200px;
+  height: 35px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+   transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.get-users-loading {
+  text-align: center;
+  color: gray;
+}
+
+.get-users-error {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+
+.get-users-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.get-users-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}

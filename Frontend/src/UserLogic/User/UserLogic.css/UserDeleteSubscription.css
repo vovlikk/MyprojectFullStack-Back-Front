@@ -1,0 +1,58 @@
+    .delete-subscription-container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f5f7fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+.delete-subscription-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.delete-subscription-input {
+  width: 90%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  background-color: white;
+}
+
+.delete-subscription-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
+}
+
+.delete-subscription-button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.delete-subscription-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-subscription-button:disabled {
+  background-color: #7ab5f5;
+  cursor: not-allowed;
+}
+
+.delete-subscription-error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+

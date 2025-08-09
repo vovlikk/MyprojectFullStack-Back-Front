@@ -1,0 +1,64 @@
+
+.Workout-home-body{
+    width: 100%;
+    min-height: 600px;
+    
+    
+    margin-top: 150px;
+}
+
+.workout-home-section {
+
+    padding: 10px;
+    display: flex;
+    gap: 100px;
+    width: 1470px;
+    margin:  100px auto;
+    
+    align-items: center;
+}
+
+.workout-home-img img{
+    width: 850px;
+    height: 550px;
+     border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+.workout-home-text h1{
+    font-size: 48px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.workout-home-text{
+      max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.workout-home-text-body p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.workout-home-btn-btn button {
+  background: #2575fc;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(37, 117, 252, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.workout-home-btn-btn button:hover {
+  transform: scale(1.05);
+}

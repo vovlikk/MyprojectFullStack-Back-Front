@@ -1,0 +1,117 @@
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+
+.footer-main{
+    height: 300px;
+   
+    padding-top: 50px;
+}
+
+.footer-sections{
+    width: 1490px;
+ 
+    margin:  0 auto;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.footer-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--font-poppins);
+}
+
+.footer-left-text h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+}
+
+.footer-right-side{
+    
+    width: 520px;
+   
+}
+
+.footer-cards{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.card-footer h1{
+    font-size: 22px;
+    font-weight: 800;
+    font-family: var(--font-poppins);
+}
+
+.card-footer h2{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+     margin-bottom: 10px;
+}
+
+
+
+
+.Company-main{
+    height: 80px;
+    width: 100%;
+}
+
+.company-section{
+    width: 1490px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.company-left-side{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #E1E1E1;
+}
+
+.company-right-side {
+    display: flex;
+    font-size: 7px;
+    gap: 20px;
+    align-items: center;
+    color: #E1E1E1;
+}
+
+.company-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #D1D1D1;
+}
+
+
+.card-footer-img{
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}

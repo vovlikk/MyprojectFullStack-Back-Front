@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #000; /* или твой цвет */
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+    
+}
+.header-right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px;
+    font-family: var(Poppins);
+    font-weight: 500;   
+}
+.auth-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.auth-buttons button{
+    height: 40px;
+    width: 100px;   
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.register-btn{
+    background-color: #097FD9;
+    border: none;
+     transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.register-btn:hover{
+     transform: scale(1.05);
+}
+.login-btn{
+    background-color: #090707;
+     border: 1px solid #FFFFFF;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.login-btn:hover{
+     transform: scale(1.05);
+}

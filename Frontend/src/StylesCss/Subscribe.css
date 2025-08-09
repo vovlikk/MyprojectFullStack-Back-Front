@@ -1,0 +1,80 @@
+
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+.subscribe-main{
+    height: 400px;
+    
+    padding-top: 80px; /* отступ сверху */
+    
+}
+.subscribe-section{
+    width: 100%;
+  max-width: 1400px;
+  background-color: #097FD9;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 40px; 
+  border-radius: 25px; 
+  
+  gap: 20px;
+}
+
+.subscribe-text h1{
+    font-size: 32px;
+    font-family: var(--font-urbanist);
+    font-weight: 800;
+    padding-left: 100px;
+}
+
+.subscribe-text p{
+    font-size: 16px;
+    color: rgba(rgb(255, 255, 255, 5), green, blue, alpha);
+}
+.sub-bottom-text{
+    padding-left: 200px;
+}
+
+.subscribe-input{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: #000;
+}
+
+.subscribe-input input {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  border: none;
+  width: 400px;
+}
+.subscribe-input ::placeholder{
+    color: #000;
+}
+
+.subscribe-input button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: var(--font-urbanist);
+}
+
+.subscribe-input button:hover{
+      background-color: black;
+    color: #fff;
+    transform: scale(1.05);
+}

@@ -1,0 +1,48 @@
+.LifeStyle-Main {
+    height: 250px;
+    background-color: #000; /* фон, как на скрине */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LifeStyle-Section {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e0e0e;
+    padding: 40px 60px;
+    gap: 150px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* ТЕКСТ НЕ МЕНЯЛ */
+.life-style-text h2 {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: var(--font-urbanist);
+}
+
+/* Кнопка — аккуратный стиль */
+.life-style-button button {
+    background-color: #097FD9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    font-weight: 800;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+}
+
+.life-style-button button:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,38 @@
+.user-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(245, 4, 4, 0.1);
+  width: 1300px;
+  margin: 10px auto;
+  
+  z-index: 999;
+}
+
+.settings-buttons {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 25px;
+  
+  justify-content: center;
+}
+
+.settings-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+   transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.settings-buttons button:hover {
+  background-color: #0056b3;
+}
+

@@ -1,0 +1,53 @@
+.review-form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-input-user,
+.review-input-text {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.review-input-user:focus,
+.review-input-text:focus {
+  border-color: #007bff;
+}
+
+.review-submit-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.review-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.review-loading {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+.review-error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}

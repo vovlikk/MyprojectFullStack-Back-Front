@@ -1,0 +1,59 @@
+
+.user-progress-header{
+    width: 100%;
+    min-height: 50px;
+    
+    padding: 10px;
+    
+}
+
+.user-progress-header-section{
+    width: 1470px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     border: 2px solid gainsboro;
+     border-radius: 20px;
+    
+}
+
+.user-progress-header-buttons{
+    display: flex;
+    gap: 40px;
+}
+
+.user-progress-header-buttons button{
+    height: 40px;
+    width: 100px;   
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: #097FD9;
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.user-progress-header-buttons button:hover{
+    transform: scale(1.05);
+}
+
+.user-progress-header-button-home button{
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    height: 40px;
+    width: 100px;   
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: #097FD9;
+    border: none;
+}
+
+.user-progress-header-button-home button:hover{
+    transform: scale(1.05);
+}

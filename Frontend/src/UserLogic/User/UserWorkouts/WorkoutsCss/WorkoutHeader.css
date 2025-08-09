@@ -1,0 +1,59 @@
+
+.workout-header{
+    width: 100%;
+   background-color: black;
+    
+}
+
+.workout-header-section{
+
+    width: 1470px;
+    
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.workout-header-links{
+    display: flex;
+    gap: 40px;
+}
+
+.workout-header-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.workout-header-links a:hover{
+    color: aqua;
+    transition:0.5s;
+     transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.workout-header-button button{
+    height: 40px;
+    width: 140px;
+    gap: 40px;   
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    
+    color: white;
+    cursor: pointer;
+     background-color: #097FD9;
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.workout-header-button button:hover{
+    transform: scale(1.05);
+}
+.workout-header-button{
+    display: flex;
+    gap: 40px;
+}

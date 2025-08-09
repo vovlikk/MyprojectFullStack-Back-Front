@@ -1,0 +1,88 @@
+
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+
+.aboutus-main{
+    height: 500px;
+}
+
+.abotus-sections{
+    display: flex;
+    justify-content: space-between;
+    width: 1490px;
+    background-color: rgb(0, 0, 0);
+    margin:  0 auto;
+    padding: 80px;
+}
+
+/* Left side */
+.aboutus-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.aboutus-left-side img {
+    width: 120px;
+}
+
+.aboutus-left-side h1{
+    font-size: 50px;
+    font-family: var(--font-urbanist);
+    font-weight: 800;
+}
+
+/* Right side */
+
+.aboutus-right-side{
+    
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #111111;
+    border-radius: 15px;
+}
+
+.stars-img{
+    padding-left: 340px;
+}
+
+.text h2{
+    font-size: 18px;
+    font-family: var(--font-poppins);
+    font-weight: 300;
+
+}
+
+.man-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.text-man {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text-man h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-poppins);
+}
+
+.text-man p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    color: #757575;
+}

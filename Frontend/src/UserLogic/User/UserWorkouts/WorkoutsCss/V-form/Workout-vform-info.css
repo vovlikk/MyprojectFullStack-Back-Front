@@ -1,0 +1,60 @@
+
+.workout-vtaper-container{
+     
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+
+.workout-vtaper-section{
+    width: 1470px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.workout-vtaper-info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+}
+
+.workout-vtaper-info h1{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+}
+
+.workout-vtaper-info p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.workout-vtaper-info ul{
+    padding-left: 20px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.workout-vtaper-info li{
+     font-size: 16px;
+    line-height: 1.6;
+     color: #fff;
+    margin-bottom: 8px;
+}
+
+.workout-vtaper-info h3{
+    
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.workout-vtaper-info h2{
+    font-size: 25px;
+}

@@ -1,0 +1,121 @@
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+
+.Home{
+    display: flex;
+    gap: 170px;
+    height: calc(100vh - 70px); 
+    width: 1490px;
+    margin: 5% auto;
+   
+        
+    align-items: center;
+}
+/* Left side home*/
+.Home-Left-Side{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 12%;
+}
+
+.Home-text h1{
+    font-size: 74px;
+    font-family: var(--font-urbanist);
+    font-weight: 800;
+}
+
+.Home-text p{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.5); /* белый, 50% прозрачности */
+
+}
+
+.Home-button{
+    height: 45px;
+    width: 170px;   
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #097FD9;
+    border: none;
+    font-weight: 800;
+    font-family: var(--font-poppins);
+}
+.Home-button:hover{
+     transform: scale(1.05);
+}
+
+/* Right side home*/
+
+.Home-Right-Side{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-Right-Side-Text h1{
+    position: absolute;
+    padding-right: 5px;
+     left: -250px; /* сдвиг влево, чтобы текст выглядывал */
+    top: 35%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-size: 160px;
+    font-weight: 900;
+    font-family: var(--font-urbanist);
+    color: rgba(255, 255, 255, 0.2); /* белый с прозрачностью 5% */
+     z-index: 1;
+    pointer-events: none; /* чтобы не мешал мышке */
+     user-select: none;
+}
+
+.Home-Right-Side img {
+  z-index: 2;
+  position: relative;
+  max-height: 700px;
+  padding-right: 100px;
+  
+  
+}
+
+.home-right-main-photo{
+     height: 750px; 
+    width: 410px;
+     background-color: transparent; /* Убираем фон */
+   
+    
+}
+
+.icons{
+    
+    margin-bottom: 500px;
+    width: 200px;
+    padding-right: 20px;
+    
+    
+}
+.icons-info{
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.icons h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font-urbanist);
+}
+
+.icons img{
+    width: 120px;
+}

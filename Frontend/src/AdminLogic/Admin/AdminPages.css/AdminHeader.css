@@ -1,0 +1,42 @@
+.admin-header{
+    width: 100%;
+  
+}
+
+.header-admin-section{
+    padding: 10px;
+    width: 1470px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.admin-buttons{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.admin-buttons button{
+    width: 120px;
+    min-height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 5px;
+     background-color: #097FD9;
+    border: none;
+}
+
+.admin-buttons button:hover{
+    transform: scale(1.05);
+}
+
+
+body{
+    background-color: black;
+}

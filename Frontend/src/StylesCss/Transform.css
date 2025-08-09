@@ -1,0 +1,116 @@
+/* Importing the Poppins and Urbanist fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Defining CSS variables for font families */
+:root {
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+/* Main wrapper for the Transform section, taking full viewport height */
+.Transoform-Main {
+  height: 100vh;
+  
+}
+
+.Transform-Sections {
+  max-width: 1490px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  padding-top: 150px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* Image container inside the transform section */
+.Transoform-Img img {
+  width: 800px;  
+  padding-left: 80px;               /* Image width */
+}
+
+/* Info block with text content */
+.Transoform-Info {
+  display: flex;
+  flex-direction: column;       /* Stack children vertically */
+  width: 600px;
+  height: 420px;
+   /* Light background color */
+}
+
+/* Heading styles inside the info block */
+.transofm-info-text h1 {
+  font-size: 56px;
+  font-family: var(--font-urbanist);  /* Use Urbanist font */
+  font-weight: 800;                   /* Bold */
+}
+
+/* Wrapper for the tasks or subheadings */
+.trasform-tasks {
+  display: flex;
+  gap: 16px;                          /* Space between elements */
+}
+
+/* Subheading styles */
+.trasform-tasks h4 {
+  font-size: 16px;
+  font-family: var(--font-poppins);  /* Use Poppins font */
+  font-weight: 500;
+}
+
+/* List of task items or details */
+.transform-info-task {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Container for the action buttons */
+.transform-Info-buttons {
+  display: flex;
+  gap: 20px;                         /* Space between buttons */
+  margin-top: 20px;
+}
+
+/* General button styles */
+.transform-Info-buttons button {
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;              /* Rounded corners */
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+/* "Join now" button specific styles */
+.Join-now-button {
+  background-color: #097FD9;        /* Blue background */
+  border: none;
+}
+
+/* Hover effect for "Join now" button */
+.Join-now-button:hover {
+  transform: scale(1.05);           /* Slightly enlarge on hover */
+}
+
+/* "Contact Us" button specific styles */
+.Contact-Us {
+  background-color: #090707;        /* Dark background */
+  border: 1px solid #FFFFFF;        /* White border */
+}
+
+/* Hover effect for "Contact Us" button */
+.Contact-Us:hover {
+  transform: scale(1.05);           /* Slightly enlarge on hover */
+}
+
+
+.Transform-Sections {
+  will-change: transform;
+  /* transform: translateZ(0); -- можно добавить, если нужно */
+}

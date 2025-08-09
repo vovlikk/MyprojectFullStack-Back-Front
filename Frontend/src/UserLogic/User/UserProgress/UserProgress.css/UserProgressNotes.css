@@ -1,0 +1,162 @@
+
+.user-notes-container{
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-notes-section{
+    width: 1470px;
+    height: 700px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.error-message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notes-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.note-item {
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #333;
+}
+
+.note-item:last-child {
+  border-bottom: none;
+}
+
+.note-form {
+  display: flex;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.note-input {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.note-input:focus {
+  border-color: #007bff;
+}
+
+.note-submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.note-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.note-submit-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+.note-delete-form-ctrl {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.note-delete-input-field {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 1px solid #dc3545;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: white;
+}
+
+.note-delete-input-field:focus {
+  border-color: #c82333;
+}
+
+.note-delete-submit-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.note-delete-submit-btn:hover {
+  background-color: #c82333;
+}
+
+.change-note-form {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.change-note-id-input,
+.change-note-text-input {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 1px solid #ffc107;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: white;
+}
+
+.change-note-id-input:focus,
+.change-note-text-input:focus {
+  border-color: #e0a800;
+}
+
+.change-note-button {
+  background-color: #ffc107;
+  color: black;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change-note-button:hover {
+  background-color: #e0a800;
+}
