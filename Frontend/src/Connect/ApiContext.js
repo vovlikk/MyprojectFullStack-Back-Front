@@ -3,7 +3,7 @@ const ApiContext = createContext();
 
 export const ApiProvider = ({ children }) => {
   // Здесь храним ссылку на API
-  const apiUrl = 'https://907fc7c3a0c7.ngrok-free.app'; // замени на свою ссылку
+  const apiUrl = 'https://dfbe6ba98570.ngrok-free.app'; 
 
   return (
     <ApiContext.Provider value={{ apiUrl }}>
