@@ -1,0 +1,57 @@
+# **GymProject** — полнофункциональное веб-приложение для спортивного сайта с бэкендом на .NET и фронтендом на React.
+
+---
+
+## О проекте
+
+- Регистрация и авторизация пользователей с JWT  
+- Работа с PostgreSQL через Entity Framework Core  
+- REST API для управления данными пользователей и тренировок  
+- Фронтенд на React с использованием Context API и Chart.js  
+- Отправка почты через MailKit  
+- Деплой на Render.com  
+
+---
+
+## Стек технологий
+
+**Backend:**  
+.NET 7, ASP.NET Core Web API, Entity Framework Core (PostgreSQL), JWT, MailKit
+
+**Frontend:**  
+React.js, Context API, Fetch API, Chart.js, CSS Modules
+
+---
+
+## Запуск проекта
+
+### Клонирование репозитория
+
+
+git clone https://github.com/vovlikk/MyprojectFullStack-Back-Front.git
+cd MyprojectFullStack-Back-Front
+Настройка подключения к базе данных
+Важно! Для подключения к своей базе данных необходимо изменить только файл:
+Backend/appsettings.json
+В этом файле находится секция ConnectionStrings. Нужно заменить строку подключения на свою, например:
+
+{
+  "ConnectionStrings": {
+    "Build": "Host=ваш_хост;Port=5432;Database=ваша_бд;Username=ваш_пользователь;Password=ваш_пароль;Pooling=true;SSL Mode=Require;Trust Server Certificate=true;"
+  }
+}
+Запуск backend
+cd Backend
+dotnet restore
+dotnet ef database update
+dotnet run
+Запуск frontend
+cd Frontend
+npm install
+npm start
+Доступ к проекту
+Проект развёрнут и доступен по адресу:
+https://myprojectfullstack-back-front-1.onrender.com
+История изменений
+Все коммиты и история проекта доступны здесь:
+https://github.com/vovlikk/gymproject
