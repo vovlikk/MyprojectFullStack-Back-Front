@@ -3,7 +3,7 @@ const ApiContext = createContext();
 
 export const ApiProvider = ({ children }) => {
   
-  const apiUrl = 'https://1498525e40a1.ngrok-free.app'; 
+  const apiUrl = 'https://myprojectfullstack-back-front-1.onrender.com'; 
 
   return (
     <ApiContext.Provider value={{ apiUrl }}>
