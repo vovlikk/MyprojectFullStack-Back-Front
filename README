@@ -23,11 +23,9 @@ React.js, Context API, Fetch API, Chart.js, CSS Modules
 
 ---
 
-## Запуск проекта
+## Клонирование репозитория
 
-### Клонирование репозитория
-
-
+```bash
 git clone https://github.com/vovlikk/MyprojectFullStack-Back-Front.git
 cd MyprojectFullStack-Back-Front
 Настройка подключения к базе данных
@@ -40,6 +38,8 @@ Backend/appsettings.json
     "Build": "Host=ваш_хост;Port=5432;Database=ваша_бд;Username=ваш_пользователь;Password=ваш_пароль;Pooling=true;SSL Mode=Require;Trust Server Certificate=true;"
   }
 }
+
+Запуск проекта
 Запуск backend
 cd Backend
 dotnet restore
